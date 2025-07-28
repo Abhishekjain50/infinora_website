@@ -11,10 +11,10 @@ const Navigation = () => {
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="navbar-brand-with-logo">
-            <img src="/logo192.png" alt="Infinora Logo" className="navbar-logo" />
-            Infinora
+            <img src="/logo192.png" alt="InfiNora Logo" className="navbar-logo" />
+            InfiNora
           </Navbar.Brand>
-        </LinkContainer>
+          </LinkContainer>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -83,8 +83,8 @@ Submitted on: ${new Date().toLocaleString()}
   return (
     <>
       <Helmet>
-        <title>Contact - Infinora</title>
-        <meta name="description" content="Get in touch with Infinora for your next project. Multiple ways to reach us!" />
+        <title>Contact - InfiNora</title>
+        <meta name="description" content="Get in touch with InfiNora for your next project. Multiple ways to reach us!" />
       </Helmet>
       
       {/* Hero Section */}

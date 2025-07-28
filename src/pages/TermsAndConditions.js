@@ -7,8 +7,8 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>Terms and Conditions - Infinora</title>
-        <meta name="description" content="Terms and Conditions for Infinora - Our terms of service and legal agreements." />
+        <title>Terms and Conditions - InfiNora</title>
+        <meta name="description" content="Terms and Conditions for InfiNora - Our terms of service and legal agreements." />
       </Helmet>
       
       <Container className="py-5">
@@ -21,15 +21,15 @@ const TermsAndConditions = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">1. Agreement to Terms</h2>
                 <p>
-                  By accessing and using Infinora's website and services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                  By accessing and using InfiNora's website and services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
                 </p>
               </section>
 
               <section className="mb-5">
                 <h2 className="h3 mb-3">2. Definitions</h2>
                 <ul>
-                  <li><strong>"Company"</strong> (referred to as "we," "us," or "our") refers to Infinora</li>
-                  <li><strong>"Service"</strong> refers to the website and services provided by Infinora</li>
+                  <li><strong>"Company"</strong> (referred to as "we," "us," or "our") refers to InfiNora</li>
+                  <li><strong>"Service"</strong> refers to the website and services provided by InfiNora</li>
                   <li><strong>"User"</strong> or "Client" refers to the individual or entity using our services</li>
                   <li><strong>"Content"</strong> refers to any text, graphics, images, music, software, audio, video, or other materials</li>
                 </ul>
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
 
               <section className="mb-5">
                 <h2 className="h3 mb-3">3. Services Provided</h2>
-                <p>Infinora provides web development, mobile app development, and digital solution services including but not limited to:</p>
+                <p>InfiNora provides web development, mobile app development, and digital solution services including but not limited to:</p>
                 <ul>
                   <li>Custom website development</li>
                   <li>Mobile application development</li>
@@ -75,7 +75,7 @@ const TermsAndConditions = () => {
                 </ul>
                 
                 <h4 className="h5 mb-2 mt-4">5.3 Intellectual Property</h4>
-                <p>Upon full payment, clients will own the final deliverables. Infinora retains the right to showcase completed work in our portfolio unless otherwise agreed.</p>
+                <p>Upon full payment, clients will own the final deliverables. InfiNora retains the right to showcase completed work in our portfolio unless otherwise agreed.</p>
               </section>
 
               <section className="mb-5">
@@ -92,7 +92,7 @@ const TermsAndConditions = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">7. Limitation of Liability</h2>
                 <p>
-                  In no event shall Infinora be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or related to your use of our services.
+                  In no event shall InfiNora be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or related to your use of our services.
                 </p>
               </section>
 

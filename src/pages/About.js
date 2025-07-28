@@ -66,8 +66,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About - Infinora</title>
-        <meta name="description" content="Learn about Infinora's mission, team, and commitment to delivering exceptional digital solutions" />
+        <title>About - InfiNora</title>
+        <meta name="description" content="Learn about InfiNora's mission, team, and commitment to delivering exceptional digital solutions" />
       </Helmet>
       
       {/* Hero Section */}
@@ -96,7 +96,7 @@ const About = () => {
           <div className="about-hero-content">
             <div className="about-hero-badge fade-in-up">
               <i className="fas fa-users me-2"></i>
-              About Infinora
+              About InfiNora
             </div>
             <h1 className="about-hero-title fade-in-up stagger-2">
               Building Tomorrow's <span className="gradient-text">Digital Solutions</span>
@@ -106,11 +106,11 @@ const About = () => {
             </p>
             <p className="about-hero-sub-description fade-in-up stagger-4">
               Founded with a vision to bridge the gap between innovative technology and real-world business needs, 
-              Infinora represents the perfect blend of fresh energy, technical expertise, and unwavering commitment to excellence.
+              InfiNora represents the perfect blend of fresh energy, technical expertise, and unwavering commitment to excellence.
             </p>
             <div className="hero-actions fade-in-up stagger-5">
               <a 
-                href="mailto:infinoratec@gmail.com?subject=Partnership Inquiry - About Infinora&body=Hello Infinora Team,%0D%0A%0D%0AI'm interested in learning more about your services and would like to discuss potential collaboration opportunities.%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
+                href="mailto:infinoratec@gmail.com?subject=Partnership Inquiry - About InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in learning more about your services and would like to discuss potential collaboration opportunities.%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
                 className="btn btn-primary-custom btn-lg me-3"
               >
                 <i className="fas fa-envelope me-2"></i>
@@ -154,7 +154,7 @@ const About = () => {
                   current needs but anticipates future challenges and opportunities.
                 </p>
                 <p className="mb-0" style={{fontSize: '1.05rem', lineHeight: '1.7'}}>
-                  At Infinora, we believe that every business deserves access to world-class technology solutions. 
+                  At InfiNora, we believe that every business deserves access to world-class technology solutions. 
                   Whether you're a startup looking to establish your digital presence or an established company 
                   seeking to modernize your technology stack, we bring the same level of dedication, expertise, 
                   and passion to every project we undertake.
@@ -239,7 +239,7 @@ const About = () => {
                 Meet Our <span className="gradient-text">Team</span>
               </h2>
               <p className="lead text-muted mb-4 slide-in-bottom stagger-2">
-                The passionate individuals behind Infinora's innovative solutions.
+                The passionate individuals behind InfiNora's innovative solutions.
               </p>
               <p className="text-muted slide-in-bottom stagger-3" style={{fontSize: '1.05rem', lineHeight: '1.7'}}>
                 Our team combines diverse expertise, fresh perspectives, and a shared commitment to excellence. 
@@ -299,7 +299,7 @@ const About = () => {
                   <div className="timeline-content">
                     <h5 className="fw-bold">The Beginning (2024)</h5>
                     <p className="text-muted mb-0">
-                      Infinora was born from a simple yet powerful idea: that exceptional digital solutions 
+                      InfiNora was born from a simple yet powerful idea: that exceptional digital solutions 
                       should be accessible to businesses of all sizes. Our founders, passionate about technology 
                       and driven by a desire to make a real impact, came together to create a company that 
                       would bridge the gap between cutting-edge technology and practical business needs.
@@ -352,7 +352,7 @@ const About = () => {
                 </p>
                 <div className="cta-actions slide-in-bottom stagger-3">
                   <a 
-                    href="mailto:infinoratec@gmail.com?subject=Digital Transformation Consultation&body=Hello Infinora Team,%0D%0A%0D%0AI'm interested in discussing my digital transformation needs and would like to schedule a consultation.%0D%0A%0D%0AProject Details:%0D%0A- Company/Business: [Please specify]%0D%0A- Current Challenges: [Please describe]%0D%0A- Goals: [Please outline]%0D%0A- Timeline: [Please specify]%0D%0A%0D%0APlease let me know your availability for a detailed discussion.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
+                    href="mailto:infinoratec@gmail.com?subject=Digital Transformation Consultation&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in discussing my digital transformation needs and would like to schedule a consultation.%0D%0A%0D%0AProject Details:%0D%0A- Company/Business: [Please specify]%0D%0A- Current Challenges: [Please describe]%0D%0A- Goals: [Please outline]%0D%0A- Timeline: [Please specify]%0D%0A%0D%0APlease let me know your availability for a detailed discussion.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
                     className="btn-get-in-touch me-3 mb-3"
                   >
                     <i className="fas fa-envelope me-2"></i>

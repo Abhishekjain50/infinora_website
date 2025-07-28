@@ -34,8 +34,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home - Infinora</title>
-        <meta name="description" content="Welcome to Infinora - Your gateway to infinite possibilities" />
+        <title>Home - InfiNora</title>
+        <meta name="description" content="Welcome to InfiNora - Your gateway to infinite possibilities" />
       </Helmet>
       
       {/* Hero Section */}
@@ -313,7 +313,7 @@ const Home = () => {
                   </Button>
                   <Button 
                     className="btn-cta-secondary"
-                    onClick={() => window.location.href = 'mailto:infinoratec@gmail.com?subject=Project Inquiry - Infinora&body=Hello Infinora Team,%0D%0A%0D%0AI am interested in discussing a project with you.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!'}
+                    onClick={() => window.location.href = 'mailto:infinoratec@gmail.com?subject=Project Inquiry - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI am interested in discussing a project with you.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!'}
                   >
                     <i className="fas fa-envelope me-2"></i>
                     Send Message

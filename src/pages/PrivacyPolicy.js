@@ -7,8 +7,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy - Infinora</title>
-        <meta name="description" content="Privacy Policy for Infinora - Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy - InfiNora</title>
+        <meta name="description" content="Privacy Policy for InfiNora - Learn how we collect, use, and protect your personal information." />
       </Helmet>
       
       <Container className="py-5">
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">1. Introduction</h2>
                 <p>
-                  Welcome to Infinora ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                  Welcome to InfiNora ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
                 </p>
               </section>
 

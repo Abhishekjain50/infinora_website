@@ -14,8 +14,8 @@ const Footer = () => {
             <Col lg={3} md={6}>
               <div className="footer-brand-professional">
                 <div className="footer-logo-container">
-                  <img src="/logo192.png" alt="Infinora Logo" className="footer-logo-image" />
-                  <h4 className="footer-logo-professional mb-3">Infinora</h4>
+                  <img src="/logo192.png" alt="InfiNora Logo" className="footer-logo-image" />
+                  <h4 className="footer-logo-professional mb-3">InfiNora</h4>
                 </div>
                 <p className="footer-description-professional mb-4">
                   Leading technology solutions provider specializing in web development, 
@@ -23,7 +23,7 @@ const Footer = () => {
                 </p>
                 <div className="footer-cta-section mb-3">
                   <a 
-                    href="mailto:infinoratec@gmail.com?subject=Quick Inquiry - Infinora&body=Hello Infinora Team,%0D%0A%0D%0AI'm interested in your services and would like to get more information.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
+                    href="mailto:infinoratec@gmail.com?subject=Quick Inquiry - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in your services and would like to get more information.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
                     className="footer-cta-btn"
                   >
                     <i className="fas fa-paper-plane me-2"></i>
@@ -121,7 +121,7 @@ const Footer = () => {
           <Row className="align-items-center">
             <Col md={6}>
               <p className="footer-copyright-professional mb-0">
-                © 2025 Infinora Technologies. All rights reserved.
+                © 2025 InfiNora Technologies. All rights reserved.
               </p>
             </Col>
             <Col md={6}>

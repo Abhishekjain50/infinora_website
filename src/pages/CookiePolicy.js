@@ -7,8 +7,8 @@ const CookiePolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Cookie Policy - Infinora</title>
-        <meta name="description" content="Cookie Policy for Infinora - Learn about how we use cookies and tracking technologies." />
+        <title>Cookie Policy - InfiNora</title>
+        <meta name="description" content="Cookie Policy for InfiNora - Learn about how we use cookies and tracking technologies." />
       </Helmet>
       
       <Container className="py-5">
@@ -28,7 +28,7 @@ const CookiePolicy = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">2. How We Use Cookies</h2>
                 <p>
-                  Infinora uses cookies to enhance your browsing experience, analyze website traffic, and for marketing purposes. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device for a specified period).
+                  InfiNora uses cookies to enhance your browsing experience, analyze website traffic, and for marketing purposes. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device for a specified period).
                 </p>
               </section>
 

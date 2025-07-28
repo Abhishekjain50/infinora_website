@@ -60,7 +60,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Services - Infinora</title>
+        <title>Services - InfiNora</title>
         <meta name="description" content="Explore our comprehensive range of digital services including web development, mobile apps, UI/UX design, and technical consulting" />
       </Helmet>
       
@@ -272,7 +272,7 @@ const Services = () => {
                 </p>
                 <div className="cta-buttons slide-in-bottom stagger-2">
                   <a 
-                    href="mailto:infinoratec@gmail.com?subject=Free Consultation Request - Infinora&body=Hello Infinora Team,%0D%0A%0D%0AI'm interested in discussing my project requirements and would like to schedule a free consultation.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: [Please specify]%0D%0A- Timeline: [Please specify]%0D%0A- Budget Range: [Please specify]%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
+                    href="mailto:infinoratec@gmail.com?subject=Free Consultation Request - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in discussing my project requirements and would like to schedule a free consultation.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: [Please specify]%0D%0A- Timeline: [Please specify]%0D%0A- Budget Range: [Please specify]%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
                     className="btn btn-primary-custom btn-lg me-3 mb-3"
                   >
                     <span className="me-2">✉️</span>
