@@ -126,11 +126,17 @@ const Footer = () => {
             </Col>
             <Col md={6}>
               <div className="footer-bottom-links-professional">
-                <a href="#privacy">Privacy Policy</a>
+                <LinkContainer to="/privacy-policy">
+                  <a href="/privacy-policy">Privacy Policy</a>
+                </LinkContainer>
                 <span className="separator">|</span>
-                <a href="#terms">Terms of Service</a>
+                <LinkContainer to="/terms-and-conditions">
+                  <a href="/terms-and-conditions">Terms of Service</a>
+                </LinkContainer>
                 <span className="separator">|</span>
-                <a href="#cookies">Cookie Policy</a>
+                <LinkContainer to="/cookie-policy">
+                  <a href="/cookie-policy">Cookie Policy</a>
+                </LinkContainer>
               </div>
             </Col>
           </Row>

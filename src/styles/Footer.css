@@ -325,16 +325,10 @@
     padding: 3rem 0 1.5rem 0;
   }
   
-  .footer-logo-container {
-    justify-content: center;
-    text-align: center;
-  }
-  
   .footer-brand-professional,
   .footer-links-professional,
   .footer-services-professional,
   .footer-contact-professional {
-    text-align: center;
     margin-bottom: 2.5rem;
   }
   
@@ -342,13 +336,9 @@
     max-width: none;
   }
   
-  .social-links-professional {
-    justify-content: center;
-  }
-  
   .footer-title-professional::after {
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    transform: none;
   }
 }
 
@@ -358,12 +348,33 @@
   }
   
   .footer-logo-professional {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   
   .footer-logo-image {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .footer-description-professional {
+    font-size: 0.9rem;
+    max-width: 320px;
+  }
+  
+  .footer-title-professional {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .social-links-professional {
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+  }
+  
+  .social-link-professional {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
   }
   
   .simple-contact-item {
@@ -374,25 +385,152 @@
     font-size: 0.95rem;
   }
   
+  .footer-cta-btn {
+    font-size: 0.85rem;
+    padding: 0.7rem 1.3rem;
+  }
+  
   .footer-bottom-links-professional {
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 1rem;
+    gap: 0.3rem;
+  }
+  
+  .footer-bottom-links-professional .separator {
+    margin: 0 0.3rem;
   }
 }
 
 @media (max-width: 576px) {
+  .footer-main-professional {
+    padding: 2rem 0 1rem 0;
+  }
+  
+  .footer-brand-professional,
+  .footer-links-professional,
+  .footer-services-professional,
+  .footer-contact-professional {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-logo-professional {
+    font-size: 1.4rem;
+  }
+  
+  .footer-logo-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer-description-professional {
+    font-size: 0.85rem;
+    max-width: 280px;
+  }
+  
+  .footer-title-professional {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links-professional {
+    gap: 0.6rem;
+  }
+  
+  .social-link-professional {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+  
+  .simple-contact-item {
+    font-size: 0.85rem;
+  }
+  
+  .footer-cta-btn {
+    font-size: 0.8rem;
+    padding: 0.65rem 1.2rem;
+  }
+  
+  .services-list-professional li,
+  .footer-nav-professional li {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+  }
+  
   .footer-bottom-professional {
-    text-align: center;
+    padding: 1.2rem 0;
   }
   
   .footer-bottom-links-professional {
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 0.8rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-bottom-links-professional .separator {
+    display: none;
+  }
+  
+  .footer-bottom-links-professional a {
+    display: inline-block;
+    padding: 0.3rem 0;
   }
   
   .footer-copyright-professional {
-    text-align: center;
     margin-bottom: 1rem;
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-main-professional {
+    padding: 1.5rem 0 0.8rem 0;
+  }
+  
+  .footer-logo-container {
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-description-professional {
+    font-size: 0.8rem;
+    max-width: 260px;
+  }
+  
+  .footer-title-professional {
+    font-size: 1rem;
+  }
+  
+  .social-links-professional {
+    gap: 0.5rem;
+  }
+  
+  .social-link-professional {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+  
+  .footer-cta-btn {
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
+  }
+  
+  .simple-contact-item {
+    font-size: 0.8rem;
+  }
+  
+  .footer-bottom-professional {
+    padding: 1rem 0;
+  }
+  
+  .footer-copyright-professional {
+    font-size: 0.75rem;
+  }
+  
+  .footer-bottom-links-professional {
+    font-size: 0.75rem;
   }
 }
