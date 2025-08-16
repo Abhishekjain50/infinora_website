@@ -11,7 +11,7 @@ function Helpdesk() {
           type="text"
           name="name"
           placeholder="Your Name"
-          required
+          required  
           style={{ padding: "0.75rem", borderRadius: "6px", border: "1px solid #ccc" }}
         />
         <input
@@ -39,9 +39,6 @@ function Helpdesk() {
           Submit Request
         </button>
       </form>
-      <div style={{ marginTop: "1.5rem", color: "#1769aa", fontWeight: "bold", fontSize: "1.1rem" }}>
-        After submitting, you'll receive a confirmation and your request will be sent to info@infinoratec.com.
-      </div>
     </main>
   );
 }
