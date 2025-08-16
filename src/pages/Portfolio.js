@@ -48,8 +48,8 @@ const Portfolio = () => {
   return (
     <>
             <Helmet>
-        <title>Portfolio - InfiNora</title>
-        <meta name="description" content="Explore InfiNora's portfolio of innovative projects and successful collaborations." />
+        <title>Portfolio - InfiNoraTec</title>
+        <meta name="description" content="Explore InfiNoraTec's portfolio of innovative projects and successful collaborations." />
       </Helmet>
       
       {/* Hero Section */}

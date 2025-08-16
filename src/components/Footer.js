@@ -14,8 +14,8 @@ const Footer = () => {
             <Col lg={3} md={6}>
               <div className="footer-brand-professional">
                 <div className="footer-logo-container">
-                  <img src="/logo192.png" alt="InfiNora Logo" className="footer-logo-image" />
-                  <h4 className="footer-logo-professional mb-3">InfiNora</h4>
+                  <img src="/logo192.png" alt="InfiNoraTec Logo" className="footer-logo-image" />
+                  <h4 className="footer-logo-professional mb-3">InfiNoraTec</h4>
                 </div>
                 <p className="footer-description-professional mb-4">
                   Leading technology solutions provider specializing in web development, 
@@ -23,7 +23,7 @@ const Footer = () => {
                 </p>
                 <div className="footer-cta-section mb-3">
                   <a 
-                    href="mailto:infinoratec@gmail.com?subject=Quick Inquiry - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in your services and would like to get more information.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
+                    href="mailto:info@infinoratec.com?subject=Quick Inquiry - InfiNoraTec&body=Hello InfiNoraTec Team,%0D%0A%0D%0AI'm interested in your services and would like to get more information.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!"
                     className="footer-cta-btn"
                   >
                     <i className="fas fa-paper-plane me-2"></i>
@@ -37,7 +37,7 @@ const Footer = () => {
                   <a href="https://www.instagram.com/infinoratec?igsh=c2kyYTY4NDRwNDds" className="social-link-professional" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="mailto:infinoratec@gmail.com" className="social-link-professional" aria-label="Email">
+                  <a href="mailto:info@infinoratec.com" className="social-link-professional" aria-label="Email">
                     <i className="fas fa-envelope"></i>
                   </a>
                 </div>
@@ -67,6 +67,11 @@ const Footer = () => {
                   <li>
                     <LinkContainer to="/contact">
                       <a href="/contact">Contact</a>
+                    </LinkContainer>
+                  </li>
+                  <li>
+                    <LinkContainer to="/blog">
+                      <a href="/blog">Blogs</a>
                     </LinkContainer>
                   </li>
                 </ul>
@@ -101,12 +106,12 @@ const Footer = () => {
 
                   <div className="simple-contact-item">
                     <i className="fas fa-phone"></i>
-                    <a href="tel:+919510068148">+91 9510068148</a>
+                    <a href="tel:+917573072308">+91 7573072308</a>
                   </div>
 
                   <div className="simple-contact-item">
                     <i className="fas fa-envelope"></i>
-                    <a href="mailto:infinoratec@gmail.com">infinoratec@gmail.com</a>
+                    <a href="mailto:info@infinoratec.com">info@infinoratec.com</a>
                   </div>
                 </div>
               </div>
@@ -121,7 +126,7 @@ const Footer = () => {
           <Row className="align-items-center">
             <Col md={6}>
               <p className="footer-copyright-professional mb-0">
-                © 2025 InfiNora Technologies. All rights reserved.
+                © 2025 InfiNoraTec All rights reserved.
               </p>
             </Col>
             <Col md={6}>

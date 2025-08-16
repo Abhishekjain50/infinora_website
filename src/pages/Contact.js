@@ -42,7 +42,7 @@ Submitted on: ${new Date().toLocaleString()}
     `;
     
     // Create mailto link - this will open with your email as sender and recipient
-    const mailtoLink = `mailto:infinoratec@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:info@infinoratec.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Open email client
     window.location.href = mailtoLink;
@@ -58,16 +58,16 @@ Submitted on: ${new Date().toLocaleString()}
       icon: '📧',
       title: 'Email Us',
       description: 'Send us an email anytime',
-      contact: 'infinoratec@gmail.com',
-      action: 'mailto:infinoratec@gmail.com',
+      contact: 'info@infinoratec.com',
+      action: 'mailto:info@infinoratec.com',
       delay: '0s'
     },
     {
       icon: '📱',
       title: 'Call Us',
       description: 'Mon-Fri from 9am to 6pm',
-      contact: '+91 9510068148',
-      action: 'tel:+919510068148',
+      contact: '+91 7573072308',
+      action: 'tel:+917573072308',
       delay: '0.2s'
     },
     {
@@ -83,8 +83,8 @@ Submitted on: ${new Date().toLocaleString()}
   return (
     <>
       <Helmet>
-        <title>Contact - InfiNora</title>
-        <meta name="description" content="Get in touch with InfiNora for your next project. Multiple ways to reach us!" />
+        <title>Contact InfiNoraTec | IT & Software Company in Ahmedabad</title>
+        <meta name="description" content="Contact InfiNoraTec, a leading software and IT company in Ahmedabad, Gujarat. Reach out for web development, mobile apps, and custom software solutions. Let's start your project today." />
       </Helmet>
       
       {/* Hero Section */}

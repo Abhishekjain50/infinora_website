@@ -7,8 +7,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy - InfiNora</title>
-        <meta name="description" content="Privacy Policy for InfiNora - Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy - InfiNoraTec</title>
+        <meta name="description" content="Privacy Policy for InfiNoraTec - Learn how we collect, use, and protect your personal information." />
       </Helmet>
       
       <Container className="py-5">
@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">1. Introduction</h2>
                 <p>
-                  Welcome to InfiNora ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                  Welcome to InfiNoraTec ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
                 </p>
               </section>
 
@@ -118,9 +118,8 @@ const PrivacyPolicy = () => {
                   If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
                 </p>
                 <div className="bg-light p-3 rounded">
-                  <p className="mb-1"><strong>Email:</strong> privacy@infinora.com</p>
-                  <p className="mb-1"><strong>Phone:</strong> [Your Phone Number]</p>
-                  <p className="mb-0"><strong>Address:</strong> [Your Business Address]</p>
+                  <p className="mb-1"><strong>Email:</strong> info@infinoratec.com</p>
+                  <p className="mb-1"><strong>Phone:</strong> 7573072308</p>
                 </div>
               </section>
             </div>

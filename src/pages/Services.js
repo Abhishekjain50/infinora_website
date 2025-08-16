@@ -60,8 +60,8 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Services - InfiNora</title>
-        <meta name="description" content="Explore our comprehensive range of digital services including web development, mobile apps, UI/UX design, and technical consulting" />
+        <title>Our Services | Web &amp; Mobile App Development | InfiNoraTec Ahmedabad</title>
+        <meta name="description" content="Discover the expert IT services offered by InfiNoraTec, a leading software company in Ahmedabad. We specialize in web development, mobile apps, UI/UX design, and e-commerce solutions." />
       </Helmet>
       
       {/* Hero Section */}
@@ -96,8 +96,8 @@ const Services = () => {
               Innovative <span className="gradient-text">Digital Solutions</span> for Modern Businesses
             </h1>
             <p className="services-hero-description fade-in-up stagger-3">
-              As a dynamic startup, we're passionate about delivering cutting-edge digital solutions. 
-              From modern web applications to mobile apps, we're here to transform your ideas into reality.
+              As a dynamic <strong>IT company in Ahmedabad</strong>, we're passionate about delivering cutting-edge digital solutions. 
+              From modern web applications to mobile apps, our <strong>software company</strong> is here to transform your ideas into reality.
             </p>
             <div className="services-stats fade-in-up stagger-4">
               <div className="stat-item">
@@ -126,7 +126,7 @@ const Services = () => {
                 What We <span className="gradient-text">Offer</span>
               </h2>
               <p className="lead text-muted slide-in-bottom stagger-2">
-                Our expert team is ready to deliver exceptional results across multiple domains
+                Our expert team in <strong>Gujarat</strong> is ready to deliver exceptional results across multiple domains for our clients.
               </p>
             </Col>
           </Row>
@@ -189,7 +189,7 @@ const Services = () => {
                 Our <span className="gradient-text">Process</span>
               </h2>
               <p className="lead text-muted slide-in-bottom stagger-2">
-                Our startup expertise meets your business goals with a structured approach
+                As a leading <strong>software company in Ahmedabad</strong>, our expertise meets your business goals with a structured and transparent approach.
               </p>
             </Col>
           </Row>
@@ -272,7 +272,7 @@ const Services = () => {
                 </p>
                 <div className="cta-buttons slide-in-bottom stagger-2">
                   <a 
-                    href="mailto:infinoratec@gmail.com?subject=Free Consultation Request - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI'm interested in discussing my project requirements and would like to schedule a free consultation.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: [Please specify]%0D%0A- Timeline: [Please specify]%0D%0A- Budget Range: [Please specify]%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
+                    href="mailto:info@infinoratec.com?subject=Free Consultation Request - InfiNoraTec&body=Hello InfiNoraTec Team,%0D%0A%0D%0AI'm interested in discussing my project requirements and would like to schedule a free consultation.%0D%0A%0D%0AProject Details:%0D%0A- Project Type: [Please specify]%0D%0A- Timeline: [Please specify]%0D%0A- Budget Range: [Please specify]%0D%0A%0D%0APlease let me know your availability for a consultation.%0D%0A%0D%0AThank you!%0D%0A%0D%0ABest regards"
                     className="btn btn-primary-custom btn-lg me-3 mb-3"
                   >
                     <span className="me-2">✉️</span>

@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => {
   const location = useLocation();
-
+  
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  
   return (
     <Navbar bg="white" expand="lg" sticky="top" className="shadow-sm">
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="navbar-brand-with-logo">
-            <img src="/logo192.png" alt="InfiNora Logo" className="navbar-logo" />
-            InfiNora
+            <img src="/logo192.png" alt="InfiNoraTec Logo" className="navbar-logo" />
+            InfiNoraTec
           </Navbar.Brand>
           </LinkContainer>
         
@@ -42,6 +47,11 @@ const Navigation = () => {
             <LinkContainer to="/contact">
               <Nav.Link className={location.pathname === '/contact' ? 'active' : ''}>
                 Contact
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/blog">
+              <Nav.Link className={location.pathname.startsWith('/blog') ? 'active' : ''}>
+                Blogs
               </Nav.Link>
             </LinkContainer>
           </Nav>

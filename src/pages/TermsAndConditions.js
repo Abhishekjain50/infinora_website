@@ -7,8 +7,8 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>Terms and Conditions - InfiNora</title>
-        <meta name="description" content="Terms and Conditions for InfiNora - Our terms of service and legal agreements." />
+        <title>Terms and Conditions - InfiNoraTec</title>
+        <meta name="description" content="Terms and Conditions for InfiNoraTec - Our terms of service and legal agreements." />
       </Helmet>
       
       <Container className="py-5">
@@ -21,15 +21,15 @@ const TermsAndConditions = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">1. Agreement to Terms</h2>
                 <p>
-                  By accessing and using InfiNora's website and services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                  By accessing and using InfiNoraTec's website and services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
                 </p>
               </section>
 
               <section className="mb-5">
                 <h2 className="h3 mb-3">2. Definitions</h2>
                 <ul>
-                  <li><strong>"Company"</strong> (referred to as "we," "us," or "our") refers to InfiNora</li>
-                  <li><strong>"Service"</strong> refers to the website and services provided by InfiNora</li>
+                  <li><strong>"Company"</strong> (referred to as "we," "us," or "our") refers to InfiNoraTec</li>
+                  <li><strong>"Service"</strong> refers to the website and services provided by InfiNoraTec</li>
                   <li><strong>"User"</strong> or "Client" refers to the individual or entity using our services</li>
                   <li><strong>"Content"</strong> refers to any text, graphics, images, music, software, audio, video, or other materials</li>
                 </ul>
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
 
               <section className="mb-5">
                 <h2 className="h3 mb-3">3. Services Provided</h2>
-                <p>InfiNora provides web development, mobile app development, and digital solution services including but not limited to:</p>
+                <p>InfiNoraTec provides web development, mobile app development, and digital solution services including but not limited to:</p>
                 <ul>
                   <li>Custom website development</li>
                   <li>Mobile application development</li>
@@ -75,7 +75,7 @@ const TermsAndConditions = () => {
                 </ul>
                 
                 <h4 className="h5 mb-2 mt-4">5.3 Intellectual Property</h4>
-                <p>Upon full payment, clients will own the final deliverables. InfiNora retains the right to showcase completed work in our portfolio unless otherwise agreed.</p>
+                <p>Upon full payment, clients will own the final deliverables. InfiNoraTec retains the right to showcase completed work in our portfolio unless otherwise agreed.</p>
               </section>
 
               <section className="mb-5">
@@ -92,7 +92,7 @@ const TermsAndConditions = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">7. Limitation of Liability</h2>
                 <p>
-                  In no event shall InfiNora be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or related to your use of our services.
+                  In no event shall InfiNoraTec be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use, arising out of or related to your use of our services.
                 </p>
               </section>
 
@@ -130,9 +130,8 @@ const TermsAndConditions = () => {
                   If you have any questions about these Terms and Conditions, please contact us at:
                 </p>
                 <div className="bg-light p-3 rounded">
-                  <p className="mb-1"><strong>Email:</strong> legal@infinora.com</p>
-                  <p className="mb-1"><strong>Phone:</strong> [Your Phone Number]</p>
-                  <p className="mb-0"><strong>Address:</strong> [Your Business Address]</p>
+                  <p className="mb-1"><strong>Email:</strong> info@infinoratec.com</p>
+                  <p className="mb-1"><strong>Phone:</strong> 9510068148</p>
                 </div>
               </section>
             </div>

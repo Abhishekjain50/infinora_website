@@ -34,8 +34,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home - InfiNora</title>
-        <meta name="description" content="Welcome to InfiNora - Your gateway to infinite possibilities" />
+        <title>InfiNoraTec | IT &amp; Software Development Company in Ahmedabad</title>
+        <meta name="description" content="InfiNoraTec is a leading IT and software development company in Ahmedabad, Gujarat, specializing in custom web development, mobile apps, and innovative tech solutions for startups and businesses." />
       </Helmet>
       
       {/* Hero Section */}
@@ -69,11 +69,11 @@ const Home = () => {
                   New Startup | Ready to Innovate
                 </div>
                 <h1 className="hero-title slide-in-left stagger-2">
-                  Fresh Ideas, <span className="gradient-text">Modern Solutions</span>
+                  IT Solutions from a Modern <span className="gradient-text">Software Company</span>
                 </h1>
                 <p className="hero-description slide-in-left stagger-3">
-                  We're a passionate startup ready to bring your digital vision to life. 
-                  With cutting-edge technology and fresh perspectives, we're here to create innovative solutions that make a difference.
+                  We are <strong>InfiNoraTec</strong>, a passionate <strong>IT company in Ahmedabad</strong> ready to bring your digital vision to life. 
+                  With cutting-edge technology, our <strong>software company</strong> creates innovative solutions that make a real difference for businesses in <strong>Gujarat</strong> and beyond.
                 </p>
                 <div className="hero-buttons slide-in-left stagger-4">
                   <Button 
@@ -113,7 +113,7 @@ const Home = () => {
             <Col lg={8} className="text-center">
               <div className="section-header fade-in-up">
                 <h2 className="section-title">Why Choose Our Startup?</h2>
-                <p className="section-description">
+                <p className="section-description lead text-muted">
                   Fresh energy, modern approaches, and unlimited passion to bring your ideas to life.
                 </p>
               </div>
@@ -211,7 +211,7 @@ const Home = () => {
             <Col lg={8} className="text-center">
               <div className="section-header fade-in-up">
                 <h2 className="section-title">Our Services</h2>
-                <p className="section-description">
+                <p className="section-description lead text-muted">
                   We're ready to help you build amazing digital solutions with the latest technologies and fresh ideas.
                 </p>
               </div>
@@ -272,7 +272,7 @@ const Home = () => {
             <Col lg={8} className="text-center">
               <div className="section-header fade-in-up">
                 <h2 className="section-title">Technologies We Work With</h2>
-                <p className="section-description">
+                <p className="section-description lead text-muted">
                   From frontend frameworks to backend technologies, mobile development to databases - we master the full stack to deliver comprehensive solutions.
                 </p>
               </div>
@@ -306,14 +306,14 @@ const Home = () => {
                 <div className="cta-buttons">
                   <Button 
                     className="btn-cta-primary me-3"
-                    onClick={() => window.location.href = 'tel:+919510068148'}
+                    onClick={() => window.location.href = 'tel:+917573072308'}
                   >
                     <i className="fas fa-phone me-2"></i>
                     Get In Touch
                   </Button>
                   <Button 
                     className="btn-cta-secondary"
-                    onClick={() => window.location.href = 'mailto:infinoratec@gmail.com?subject=Project Inquiry - InfiNora&body=Hello InfiNora Team,%0D%0A%0D%0AI am interested in discussing a project with you.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!'}
+                    onClick={() => window.location.href = 'mailto:info@infinoratec.com?subject=Project Inquiry - InfiNoraTec&body=Hello InfiNoraTec Team,%0D%0A%0D%0AI am interested in discussing a project with you.%0D%0A%0D%0APlease contact me at your earliest convenience.%0D%0A%0D%0AThank you!'}
                   >
                     <i className="fas fa-envelope me-2"></i>
                     Send Message

@@ -7,8 +7,8 @@ const CookiePolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Cookie Policy - InfiNora</title>
-        <meta name="description" content="Cookie Policy for InfiNora - Learn about how we use cookies and tracking technologies." />
+        <title>Cookie Policy - InfiNoraTec</title>
+        <meta name="description" content="Cookie Policy for InfiNoraTec - Learn about how we use cookies and tracking technologies." />
       </Helmet>
       
       <Container className="py-5">
@@ -28,7 +28,7 @@ const CookiePolicy = () => {
               <section className="mb-5">
                 <h2 className="h3 mb-3">2. How We Use Cookies</h2>
                 <p>
-                  InfiNora uses cookies to enhance your browsing experience, analyze website traffic, and for marketing purposes. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device for a specified period).
+                  InfiNoraTec uses cookies to enhance your browsing experience, analyze website traffic, and for marketing purposes. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device for a specified period).
                 </p>
               </section>
 
@@ -197,9 +197,8 @@ const CookiePolicy = () => {
                   If you have any questions about our use of cookies or this Cookie Policy, please contact us at:
                 </p>
                 <div className="bg-light p-3 rounded">
-                  <p className="mb-1"><strong>Email:</strong> privacy@infinora.com</p>
-                  <p className="mb-1"><strong>Phone:</strong> [Your Phone Number]</p>
-                  <p className="mb-0"><strong>Address:</strong> [Your Business Address]</p>
+                  <p className="mb-1"><strong>Email:</strong> info@infinoratec.com</p>
+                  <p className="mb-1"><strong>Phone:</strong> 7573072308</p>
                 </div>
               </section>
             </div>

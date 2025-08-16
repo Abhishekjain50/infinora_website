@@ -11,6 +11,9 @@ import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
 import CookiePolicy from './pages/CookiePolicy';
+import Blog from './pages/Blog';
+import Helpdesk from './pages/Helpdesk';
+import Calendar from './pages/Calendar';
 
 function App() {
   return (
@@ -27,6 +30,10 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:blogId" element={<Blog />} />
+            <Route path="/helpdesk" element={<Helpdesk />} />
+            <Route path="/calendar" element={<Calendar />} />
           </Routes>
         </main>
         <Footer />
