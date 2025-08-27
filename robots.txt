@@ -1,3 +1,48 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap
+Sitemap: https://infinoratec.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow access to admin or sensitive areas (if any)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow access to CSS and JS files for proper rendering
+User-agent: *
+Allow: /static/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+
+# Block bad bots (optional - add if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Cache directive for search engines
+# Host: infinoratec.com
